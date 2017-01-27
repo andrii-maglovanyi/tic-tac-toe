@@ -1,0 +1,10 @@
+@charset 'UTF-8';
+
+// Configuration and helpers
+@import 'abstracts/variables';
+
+// Components
+@import 'components/announcement';
+@import 'components/board';
+@import 'components/reset-button';
+@import 'components/switcher';

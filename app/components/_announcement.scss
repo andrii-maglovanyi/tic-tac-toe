@@ -1,0 +1,22 @@
+.announcement {
+  &--visible {
+    color: $highlight-color;
+    font-size: 5em;
+    height: 5rem;
+    margin: 1rem auto 0;
+    text-align: center;
+    width: 20rem;
+  }
+
+  &--hidden {
+    display: none;
+  }
+
+  &__x {
+    color: $x-color;
+  }
+
+  &__o {
+    color: $o-color;
+  }
+}
